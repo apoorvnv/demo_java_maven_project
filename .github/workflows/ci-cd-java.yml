@@ -42,7 +42,7 @@ jobs:
 
   docker_deploy:
     runs-on: ubuntu-latest
-    needs: build_test
+    needs: publish-job
 
     steps:
     - uses: actions/checkout@v3
