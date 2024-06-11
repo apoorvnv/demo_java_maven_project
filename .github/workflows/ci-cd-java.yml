@@ -24,8 +24,7 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: Run JUnit tests
         run: mvn test
-
-      - name: Test with Maven
+    - name: Test with Maven
         run: mvn test
    
   publish-job:
