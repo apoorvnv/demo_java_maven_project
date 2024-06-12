@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Created-By: Maven JAR Plugin 3.4.1
+Created-By: Maven Jar Plugin 3.2.0
 Build-Jdk-Spec: 17
 Main-Class: hello.HelloWorld
 
